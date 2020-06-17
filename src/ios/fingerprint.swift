@@ -10,7 +10,7 @@ import Foundation
 import LocalAuthentication
 
 
-@objc(fingerprint) class fingerprint : CDVPlugin {
+@objc(Fingerprint) class Fingerprint : CDVPlugin {
 
     enum PluginError:Int {
         case BIOMETRIC_UNKNOWN_ERROR = -100
@@ -244,4 +244,4 @@ import LocalAuthentication
     
 };
 
-module.exports = fingerprint;
+module.exports = Fingerprint;
