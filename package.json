@@ -1,0 +1,19 @@
+{
+    "name": "fingerprint", 
+    "version": "0.0.1", 
+    "description": "fingerprint encryption for durity", 
+    "cordova": {
+      "id": "cordova-plugin-fingerprint", 
+      "platforms": [ 
+        "ios" 
+      ]
+    },
+    "keywords": [ 
+      "cordova",
+      "fingerprint",
+      "ecosystem:cordova",
+      "cordova-ios"
+    ],
+    "author": "Venkateswara Gupta Pola", 
+    "license": "MIT" 
+  }
