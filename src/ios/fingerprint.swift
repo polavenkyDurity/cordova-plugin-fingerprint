@@ -243,5 +243,3 @@ import LocalAuthentication
 //    }
     
 };
-
-module.exports = Fingerprint;
