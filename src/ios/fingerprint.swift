@@ -160,7 +160,7 @@ import LocalAuthentication
        } catch let error {
         var pluginResult = CDVPluginResult(status: CDVCommandStatus_ERROR, messageAs: error.localizedDescription);
        }
-       self.commandDelegate!.send(pluginResult, callbackId:command.callbackId);
+       self.commandDelegate.send(pluginResult, callbackId:command.callbackId);
     }
     
     func makeAndStoreKey(name: String,
@@ -242,4 +242,4 @@ import LocalAuthentication
 //        SecItemDelete(query as CFDictionary)
 //    }
     
-};
+}
